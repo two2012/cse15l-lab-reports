@@ -15,7 +15,7 @@
 
     * If you are the first time connected to this server,you will probably get a message like this
     
-    ›![Alt text](img/step2-0.png)
+    ![Alt text](img/step2-0.png)
     
     * type `yes` then press enter
 
