@@ -1,1 +1,1 @@
-* ## [Lab 1](lab%201/labreport%201.md)
+* ## [Lab 1](lab%201/labreport%201)
