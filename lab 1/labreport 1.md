@@ -3,7 +3,7 @@
 
 *  ### __Step 1: Installing VScode__
 
-    * Download VScode at https://code.visualstudio.com/, and fellow the instruction to complete installation.
+    * Download VScode at [here](https://code.visualstudio.com/), and fellow the instruction to complete installation.
 
     * Once you done with installation and open the VScode you should see this
     
@@ -26,6 +26,10 @@
 * ### __Step 3: Trying Some Commands__
 
     * Try running the commands `cd`, `ls`, `pwd`, `mkdir` etc.
+      * `cd` -- short for Change directory and it will take you from your current directory to another
+      *  `ls` -- presents you the contents of the directory you're currently in. It will present you with both the files and other directories your current directory contains.
+      *   `pwd` -- writes to standard output the full path name of your current directory (from the root directory). All directories are separated by a / (slash). The root directory is represented by the first /, and the last directory named is your current directory.
+      *   `mkdir` -- stands for make directory and it will create a new directory for you. You have to pass the command the directory name parameter.
     
     ![Alt text](img/step%203.png)
     
