@@ -103,13 +103,13 @@ ArrayExamples.reverseInPlace(input1);
 assertArrayEquals(new int[]{4}, input1);
 ```
 
-### The symptom, as the output of running the tests 
+* The symptom, as the output of running the tests 
 
-* For input {4} the screenshot of output is shown below， it pass the test
-![Alt text](img/bug1.png)
+    * For input {4} the screenshot of output is shown below， it pass the test
+    ![Alt text](img/bug1.png)
 
-* For input {1,2,3,4,5} the screenshot of output is shown below， it fails the test
-![Alt text](img/bug2.png)
+    * For input {1,2,3,4,5} the screenshot of output is shown below， it fails the test
+    ![Alt text](img/bug2.png)
 
 ### The fixed code is shown below
 
