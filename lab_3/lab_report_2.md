@@ -44,6 +44,7 @@ class StringServer {
 ```
 
 ### when I run StringServer.java at port 4000, this screen will shown as below. 
+
 * The method it was called is `public String handleRequest(URI url)` 
 * The argument for this method is URI with no path
 * With no path the code will excute the `if` statement print out "Welcome to StringServer"
@@ -51,6 +52,7 @@ class StringServer {
 ![Alt text](img/welcome.png)
 
 ### when I change url to add messages the screen show below
+
 * The method it was called is`public String handleRequest(URI url)` 
 * The argument for this method is URI with path to add-message
 * With add-message path found the code will excute `else if` statement and add the message into strList, then loop for strList concast all the message to outcome with with new line beteew each of them, last print the outcome to screen
@@ -58,6 +60,7 @@ class StringServer {
 ![Alt text](img/1.png)
 
 ### when I coutinue to add message the screen shown below
+
 * The method it was called is `public String handleRequest(URI url)` 
 * The argument for this method is URI with no path
 * With add-message path found the code will excute `else if` statement and add the message into strList, then loop for strList concast all the message to outcome with with new line beteew each of them, last print the outcome to screen
@@ -67,6 +70,7 @@ class StringServer {
     
 
 ## Part 2: choose one of the bugs from lab 3
+
 ### I choose the method `reverseInPlace(int[] arr)` in class `ArrayExamples`
 
 ```java
@@ -83,7 +87,7 @@ public class ArrayExamples {
 }
 ```
 
-### The failure-inducing input I use is {1,2,3,4,5}, code for junit shown below
+* The failure-inducing input I use is {1,2,3,4,5}, code for junit shown below
 
 ```java
 int[] input = { 1, 2, 3, 4, 5 };
@@ -100,6 +104,7 @@ assertArrayEquals(new int[]{4}, input1);
 ```
 
 ### The symptom, as the output of running the tests 
+
 * For input {4} the screenshot of output is shown below， it pass the test
 ![Alt text](img/bug1.png)
 
@@ -108,13 +113,7 @@ assertArrayEquals(new int[]{4}, input1);
 
 ### The fixed code is shown below
 
-<table>
-<tr>
-<th>code with bugs</th>
-<th>the fixed code</th>
-</tr>
-<tr>
-<td>
+* Code with bug
 
 ```java
 static void reverseInPlace(int[] arr) {
@@ -125,9 +124,7 @@ static void reverseInPlace(int[] arr) {
   }
 ```
 
-</td>
-
-<td>
+* The fixed code
 
 ```java
  static void reverseInPlace(int[] arr) {
@@ -141,9 +138,7 @@ static void reverseInPlace(int[] arr) {
     }
 }
 ```
-</td>
-</tr>
-</table>
+
 
 ### The original code reverse array with wrong way, because When the loop pass the middle index the original data before the moddle point has been covered. The fixed code using a temp to store the original array data inorder to prevent overwritting.
 
