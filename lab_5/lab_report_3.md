@@ -2,7 +2,7 @@
 
 1. `-name`-- Searches for files by their name.
 
-    * example 1
+    * example 1 (search form written_2/non-fiction/OUP/Castro/ for all file name that end with ".txt")
 
         ```
         find written_2/non-fiction/OUP/Castro/ -name *.txt
@@ -21,8 +21,9 @@
         written_2/non-fiction/OUP/Castro/chY.txt
         written_2/non-fiction/OUP/Castro/chZ.txt
         ```
+        
 
-    * example 2
+    * example 2 (search from written_2 for all file name contain "Po")
 
         ```
         find written_2/ -name *Po*
@@ -32,19 +33,20 @@
         written_2/travel_guides/berlitz2/Portugal-WhatToDo.txt
         written_2/travel_guides/berlitz2/Portugal-WhereToGo.txt
         ```
+        
 
 1. `-iname` -- Searches for files by their name but ignore the case.
 
-    * example 1
+    * example 1 (search from written_2/non-fiction/OUP/ for all file name that are ch4.txt ignore the case)
 
         ```
         find written_2/non-fiction/OUP/ -iname ch4.txt
         written_2/non-fiction/OUP/Berk/CH4.txt
         written_2/non-fiction/OUP/Kauffman/ch4.txt
         ```
-            
+        
 
-    * example 2
+    * example 2 (search from written_2/travel_guides/berlitz2 for all file name that contain "history" ignore the case)
 
         ```
         find written_2/travel_guides/berlitz2 -iname *history*
@@ -74,10 +76,11 @@
         written_2/travel_guides/berlitz2/PuertoRico-History.txt
         written_2/travel_guides/berlitz2/Vallarta-History.txt
         ```
+        
 
 1. `-type`-- Search only only files or only directories(d for directoies, f for files)
 
-    * example 1
+    * example 1 (Search from written_2/non-fiction/OUP/ for all directoies)
 
         ```
         find written_2/non-fiction/OUP/ -type d
@@ -90,7 +93,7 @@
         written_2/non-fiction/OUP/Rybczynski
         ```
 
-    * example 2
+    * example 2 (Search from written_2/non-fiction/OUP/ for all files)
         
         ```
         find written_2/non-fiction/OUP/ -type f
@@ -143,7 +146,7 @@
 
 1. `-exec`-- Execute command with find result as an argument
 
-    * example 1
+    * example 1 (Search from written_2 for file name is find_all.txt and use it as an argument to execute the command after "-exec". argument goes into the "{}", "+" means end of the command)
 
         ```
         ls
@@ -153,7 +156,7 @@
         written_2
         ```
 
-    * example 2
+    * example 2 (Search from written_2/non-fiction/OUP/Castro/ for file name is chA.txt and use it as an argument to execute the command after "-exec". argument goes into the "{}", "+" means end of the command)
 
         ```
         find written_2/non-fiction/OUP/Castro/chA.txt -exec cat {} +
@@ -166,6 +169,4 @@
         Confused, confused!)
         ...
         ```
-
-
-https://www.youtube.com/watch?v=skTiK_6DdqU
+Work cited -- https://www.binarytides.com/linux-find-command-examples/
