@@ -1,6 +1,6 @@
 # Lab Report 3
 
-1. `-name` -- Searches for files by their name.
+1. `-name`-- Searches for files by their name.
 
     * example 1
 
@@ -75,7 +75,7 @@
         written_2/travel_guides/berlitz2/Vallarta-History.txt
         ```
 
-1. `-type` -- Search only only files or only directories(d for directoies, f for files)
+1. `-type`-- Search only only files or only directories(d for directoies, f for files)
 
     * example 1
 
@@ -141,7 +141,7 @@
         written_2/non-fiction/OUP/Rybczynski/ch3.txt
         ```
 
-1. `-exec` -- Execute command with find result as an argument
+1. `-exec`-- Execute command with find result as an argument
 
     * example 1
 
