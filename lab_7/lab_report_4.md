@@ -52,7 +52,7 @@
 ### 7. Edit the code file to fix the failing test
 
 * `nano L<tab>.j<tab>`
-	* Note: the first <tab> will stop at ListExamples. because there are two files match this partten, the one is ListExample.java the other one is ListExample.class. so I type j<tab>
+	* Note: the first `<tab>` will stop at ListExamples. because there are two files match this partten, the one is ListExample.java the other one is ListExample.class. so I type j`<tab>`
 * `<enter>`
 
     ![Alt text](img/nano1.png)
