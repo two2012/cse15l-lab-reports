@@ -2,3 +2,4 @@
 * ## [Lab Report 2](lab_3/lab_report_2)
 * ## [Lab Report 3](lab_5/lab_report_3)
 * ## [Lab Report 4](lab_7/lab_report_4)
+* ## [Lab Report 5](lab_9/lab_report_5)
